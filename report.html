@@ -11925,19 +11925,10 @@ Standard deviation of prices: $165,171.13
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong>  The basic logic behind is, if we add a value which is lower than the average value then the median value will decrease and if we add a value which is higher than the average value then the median value will increase.</p>
-<p>For ex. we have values: 20,40,50,55,65,70,85,95<br>
-Mean is: 59.375
-Median is: 60</p>
-<p>If we add a value 56 which is less than the mean value (56 &lt; 59.375) then<br>
-20,40,50,55,<strong>56</strong>,65,70,85,95<br>
-Median is: 56<br>
-which is a decrease!</p>
-<p>If we add a value 75 which is greater than the mean value (75 &gt; 59.375) then<br>
-20,40,50,55,65,70,<strong>75</strong>,85,95<br>
-Median is: 65<br>
-which is a increase!</p>
-<p>Likewise if there is an <strong>increase</strong> in the 'RM' value (which is increase in the average number of rooms) would <strong>increase</strong> the Median value.</p>
+<p><strong>Answer: </strong><br>
+<strong>RM:</strong> Likely increases MDEV. Homes with more rooms will be bigger and thus more expensive.</p>
+<p><strong>LSTAT:</strong> Likely decreases MDEV. The higher LSTAT, the more homeowners in Bosten are richer than those in the neighborhood. That is, the poorer are homeowners in the neighborhood. While it could be that some homeowners have low net worth because of a very high mortgage on their expensive house along with other debt, I still believe net worth is a general indicator of wealth and should thus be correlated positively with owning expensive houses.</p>
+<p><strong>PTRATIO:</strong> Likely decreases MDEV. High ratios of students / teachers mean there are only few schools compared to the number of people in the neighborhood. A bad educational situation could be indicative for an underdeveloped and thus less expensive neighborhood.</p>
 
 </div>
 </div>
